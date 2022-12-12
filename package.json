@@ -1,21 +1,33 @@
 {
-  "name": "blog",
+  "name": "nodejs-sqllite",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "crud operations with nodejs and sqlite",
+  "main": "index.js",
   "scripts": {
-    "start": "node --inspect src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "nodejs",
-    "blog"
+    "sequelize",
+    "express",
+    "sqlite3"
   ],
-  "author": "ducnh",
+  "author": "javacodegeeks",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
+    "bcrypt": "^5.1.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "express-handlebars": "^6.0.6",
-    "nodemon": "^2.0.20"
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "sequelize": "6.12.0-alpha.1",
+    "sqlite3": "5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

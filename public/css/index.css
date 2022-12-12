@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar {
+    background-image: radial-gradient(650px circle at 0% 0%,
+    hsl(218, 41%, 35%) 15%,
+    hsl(218, 41%, 30%) 35%,
+    hsl(218, 41%, 20%) 75%,
+    hsl(218, 41%, 19%) 80%,
+    transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%);
+    color:aliceblue;
+}
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+body {
+    background-color: #9fcee2;
+}
+.carousel-inner{
+    width: 1140px;
+
+    margin-top: 10px;
+}
+.carousel-inner img {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    background-color: white;
+    /* height: 2000px; */
+
+}
+.nav-item{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.usermenu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.usermenu ul li {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.usermenu ul a {
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+#log {
+    background-color: white;
+    padding: 7px 10px;
+    margin-left: 4px;
+    color: black;
+    border: 2px solid #4CAF50;
+    font-size:35px;
+}
+.log-btn {
+    color: #890A00;
+    padding: 7px 9px;
+    margin-left: 4px;
+    border: 2px solid #4CAF50;
+    display: none;
+    font-size:35px;
+}
+.log-btn:hover {
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+#log:hover {
+    background-color: #9fcee2;
+}
+#reg {
+    padding: 7px 10px;
+    background-color: white;
+    color: black;font-size:35px;
+    border: 2px solid #4CAF50;
+}
+#reg:hover {
+        background-color: #9fcee2;}
+#body_picture {
+    width: 100%;
+    margin-top: 4px;
+
+}
+
+#welcome_pic {
+    width: 40%;
+    margin-right: 10px;
+}
+
+.section1 {
+    display: flex;
+    margin: 12px 8px;
+}
+
+#announ_heading {
+    margin: 17px;
+}
+
+.announcement {
+    padding: 20px;
+}
+
+.anoun_element {
+    margin-bottom: 20px;
+}
+
+.anoun_element h1 {
+    font-size: 25px;
+}
+
+.anoun_element h2 {
+    font-size: 17px;
+}
+
+footer{
+    background-image: radial-gradient(650px circle at 0% 0%,
+    hsl(218, 41%, 35%) 15%,
+    hsl(218, 41%, 30%) 35%,
+    hsl(218, 41%, 20%) 75%,
+    hsl(218, 41%, 19%) 80%,
+    transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%);
+}
+.footer-text{
+    font-size: 20px;
+    color: aliceblue;
+}
+.img-footer{
+    float: left;
+    width: 200px;
+}
+.row-footer{
+    padding-left: 150px
+}
+
+.course-name {
+    color: #890A00;
+    font-size:40px;
+}
+.main-heading {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size:50px;
+}
+.course-item{
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*.enroll-btn {*/
+/*    background-color: #890A00;*/
+/*    color: white;*/
+/*    padding: 10px;*/
+/*}*/
+/*.enroll-btn:hover {*/
+/*    cursor: pointer;*/
+/*}*/
+
+.btn-submit {
+    padding: 10px;
+    background-color: #04AA6D;
+    color: #fff;
+}
+.btn-submit:hover {cursor: pointer;}
+.box {
+    text-align: center;
+    margin: 20px 0;
+}
